@@ -1,0 +1,11 @@
+{
+  "name": "poi-preset-prerender-spa",
+  "version": "0.1.0",
+  "description": "poi preset to add prerendering to the build",
+  "main": "index.js",
+  "author": "Tristan Smith <darcnite3000@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "prerender-spa-plugin": "^3.0.0-beta.0"
+  }
+}
