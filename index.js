@@ -8,7 +8,7 @@ module.exports = (
   const rendererOptions = Object.assign({}, puppeteerOptions)
   const options = Object.assign(
     {
-      staticDir: path.join(__dirname, poi.options.dist),
+      staticDir: path.resolve(poi.options.cwd, poi.options.dist || 'dist'),
       routes: ['/'],
       renderer: new Renderer(rendererOptions)
     },
