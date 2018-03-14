@@ -5,6 +5,7 @@
   "main": "index.js",
   "author": "Tristan Smith <darcnite3000@gmail.com>",
   "license": "MIT",
+  "repository": "darcnite3000/poi-preset-prerender-spa",
   "dependencies": {
     "prerender-spa-plugin": "^3.0.0-beta.0"
   }
